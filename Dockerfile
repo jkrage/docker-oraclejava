@@ -12,6 +12,6 @@ RUN echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true 
                           oracle-java8-installer \
                           oracle-java8-set-default \
     && rm /var/cache/apt/lists/* \
-    && rm -rf /var/cache/oracle-jdk8-installer
+    && rm /var/cache/oracle-jdk8-installer
 
 CMD ["/bin/bash"]
